@@ -24,12 +24,13 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
+        //Target
         .target(
             name: "TinodiosDB",
             dependencies: [
                 .product(name: "TinodeSDK", package: "TinodeSDK"),
                 .product(name: "SwiftKeychainWrapper", package: "SwiftKeychainWrapper"),
-               .product(name: "SQLite.swift", package: "SQLite.swift"),
+                .product(name: "SQLite", package: "SQLite.swift"),
             ]),
         .testTarget(
             name: "TinodiosDBTests",
