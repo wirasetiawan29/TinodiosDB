@@ -18,7 +18,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/jrendel/SwiftKeychainWrapper", exact: "4.0.1"),
-        .package(url: "https://github.com/stephencelis/SQLite.swift", exact: "0.13.0"),
+        .package(url: "https://github.com/stephencelis/SQLite.swift.git", exact: "0.13.0"),
         .package(url: "https://github.com/wirasetiawan29/TinodeSDK", branch: "main"),
     ],
     targets: [
