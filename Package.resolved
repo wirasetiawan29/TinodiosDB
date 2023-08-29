@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "9af51e2edf491c0ea632e369a6566e09b65aa333",
+        "version" : "0.13.0"
+      }
+    },
+    {
+      "identity" : "swiftkeychainwrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jrendel/SwiftKeychainWrapper",
+      "state" : {
+        "revision" : "185a3165346a03767101c4f62e9a545a0fe0530f",
+        "version" : "4.0.1"
+      }
+    },
+    {
+      "identity" : "tinodesdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wirasetiawan29/TinodeSDK",
+      "state" : {
+        "branch" : "main",
+        "revision" : "12310817a36d8d8ed7e4a1c8e5150cfdb3cab29c"
+      }
+    }
+  ],
+  "version" : 2
+}
