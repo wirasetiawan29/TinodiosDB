@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SQLite3
+import SQLite
 import TinodeSDK
 
 public class BaseDb {

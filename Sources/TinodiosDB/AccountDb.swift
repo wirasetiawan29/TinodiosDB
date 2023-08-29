@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SQLite3
+import SQLite
 
 public class StoredAccount {
     var id: Int64
