@@ -29,7 +29,7 @@ let package = Package(
             dependencies: [
                 .product(name: "TinodeSDK", package: "TinodeSDK"),
                 .product(name: "SwiftKeychainWrapper", package: "SwiftKeychainWrapper"),
-//                .product(name: "SQLite.swift", package: "SQLite.swift"),
+               .product(name: "SQLite.swift", package: "SQLite.swift"),
             ]),
         .testTarget(
             name: "TinodiosDBTests",
