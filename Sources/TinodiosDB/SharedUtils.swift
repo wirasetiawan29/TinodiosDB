@@ -46,8 +46,8 @@ public class SharedUtils {
 
     // Default connection params.
     #if DEBUG
-        public static let kHostName = "127.0.0.1:6060" // localhost
-        public static let kUseTLS = false
+        public static let kHostName = "dev-tinode.bluebird.id:443" // localhost
+        public static let kUseTLS = true
     #else
         public static let kHostName = "api.tinode.co" // production cluster
         public static let kUseTLS = true
