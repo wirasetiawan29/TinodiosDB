@@ -44,17 +44,14 @@ public class SharedUtils {
     // this new application version.
     static let kAppMetaVersion = 1
 
-    public static let kHostName = "dev-tinode.bluebird.id:443" // localhost
-    public static let kUseTLS = true
-    
-//    // Default connection params.
-//    #if DEBUG
-//        public static let kHostName = "dev-tinode.bluebird.id:443" // localhost
-//        public static let kUseTLS = true
-//    #else
-//        public static let kHostName = "api.tinode.co" // production cluster
-//        public static let kUseTLS = true
-//    #endif
+    // Default connection params.
+    #if DEBUG
+        public static let kHostName = "127.0.0.1:6060" // localhost
+        public static let kUseTLS = false
+    #else
+        public static let kHostName = "api.tinode.co" // production cluster
+        public static let kUseTLS = true
+    #endif
 
     // Returns true if the app is being launched for the first time.
     public static var isFirstLaunch: Bool {
@@ -459,8 +456,9 @@ public class SharedUtils {
 
 extension Tinode {
     public static func getConnectionParams() -> (String, Bool) {
-        let (hostName, useTLS, _) = ConnectionSettingsHelper.getConnectionSettings()
-        return (hostName ?? SharedUtils.kHostName, useTLS ?? SharedUtils.kUseTLS)
+        //let (hostName, useTLS, _) = ConnectionSettingsHelper.getConnectionSettings()
+        //return (hostName ?? SharedUtils.kHostName, useTLS ?? SharedUtils.kUseTLS)
+        return ("dev-tinode.bluebird.id:443", true)
     }
 
     @discardableResult
