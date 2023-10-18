@@ -458,8 +458,7 @@ extension Tinode {
     public static func getConnectionParams() -> (String, Bool) {
         //let (hostName, useTLS, _) = ConnectionSettingsHelper.getConnectionSettings()
         //return (hostName ?? SharedUtils.kHostName, useTLS ?? SharedUtils.kUseTLS)
-        return ("34.124.216.166:6969", true)
-//        return ("dev-tinode.bluebird.id:443", true)
+        return ("dev-tinode.bluebird.id:443", true)
     }
 
     @discardableResult
