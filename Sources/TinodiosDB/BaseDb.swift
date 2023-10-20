@@ -42,7 +42,8 @@ public class BaseDb {
     // Meta-status: object should be visible in the UI.
     public static let kStatusVisible = Status.synced
 
-    public static let kBundleId = "com.bluebird.MyBlueBird-DevStg"
+//    public static let kBundleId = "com.bluebird.MyBlueBird-DevStg"
+    public static let kBundleId = "co.bluebird.tinodios"
     public static let kAppGroupId = "group." + BaseDb.kBundleId
     // No direct access to the shared instance.
     private static var `default`: BaseDb?
