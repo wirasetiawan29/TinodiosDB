@@ -43,7 +43,7 @@ public class BaseDb {
     public static let kStatusVisible = Status.synced
 
 //    public static let kBundleId = "com.bluebird.MyBlueBird-DevStg"
-    public static let kBundleId = "com.bluebird.MyBlueBird-"
+    public static let kBundleId = "group.com.bluebird.MyBlueBird-Production"
     public static let kAppGroupId = "group." + BaseDb.kBundleId
     // No direct access to the shared instance.
     private static var `default`: BaseDb?
